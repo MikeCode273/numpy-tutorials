@@ -13,6 +13,9 @@ np_baseball = np.array(baseball)
 
 print(np_baseball)
 # print(updated)
+print("The mean: " f"{np.mean(np_baseball[:, 0])}")
+print("The median: " f"{np.median(np_baseball[:, 0])}")
+print("The Standard deviation: " f"{np.std(np_baseball[:, 1])}")
 
 # Create numpy array: conversion
 conversion = np.array([0.0254, 0.453592, 1])
