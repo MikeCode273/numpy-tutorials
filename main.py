@@ -5,10 +5,11 @@ baseball = [[23,100, 200, ],
 
 np_baseball = np.array(baseball)
 #
-# # result = np_baseball/5
-#
+# result = np_baseball/5
+
+
 # print(np_baseball[1, 3])
-# # print(type(np_baseball))
+print(type(np_baseball))
 # print(np_baseball)
 
 print(np_baseball)
@@ -16,7 +17,7 @@ print(np_baseball)
 print("The mean: " f"{np.mean(np_baseball[:, 0])}")
 print("The median: " f"{np.median(np_baseball[:, 0])}")
 print("The Standard deviation: " f"{np.std(np_baseball[:, 1])}")
-
+print(f"{np.average(np_baseball[:, 0])}")
 # Create numpy array: conversion
 conversion = np.array([0.0254, 0.453592, 1])
 
